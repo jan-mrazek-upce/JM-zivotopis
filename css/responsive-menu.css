@@ -1,0 +1,41 @@
+#menu label, #menu input {
+    display: none;
+}
+
+nav {
+    display: flex;
+}
+
+
+/* [PRO MALÉ OBRAZOVKY] */
+@media screen and (max-width: 768px) {
+
+    /* Show Hamburger Icon */
+    #menu label {
+        position: absolute;
+        right: 5vw;
+        display: inline-block;
+        color: white;
+        background-color: gray;
+        font-style: normal;
+        font-size: 2em;
+        padding: 1vh;
+    }
+
+    /* Break down menu items into vertical */
+    nav a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+
+    /* Toggle Show/Hide Menu */
+    nav {
+        display: none;
+    }
+
+    #menu input:checked ~ nav {
+        display: block;
+        margin-right: 100px;
+    }
+}

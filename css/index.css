@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+#body{
+    transition: background-color 2s;
+    background-color: silver;
+}
+#body.swap{
+    background-color: yellow;
+}
+
+#menu{
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    background-image: url("../resources/img/Ouroboros.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+
+a {
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.button{
+    background-color: dimgray;
+    color: white;
+    padding: 2vh;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.pageHeading{
+    font-size: 100px;
+    margin: 0;
+    padding-top: 200px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+#hero{
+    text-align: center;
+    height: 500px;
+    background-image: url("../resources/img/city-bokeh-night.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: auto;
+}
+
+.centeredContentWrapper{
+    width: 1000px;
+    margin: auto;
+}
+
+#profileInfo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80vw;
+    background-blend-mode: color;
+    padding: 2vw;
+    border-radius: 20px;
+}
+
+#profileInfo > h2{
+    font-size: 50px;
+}
+
+#profileImg{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+}
+
+#profileText{
+    font-size: 20px;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: dimgray;
+    color: white;
+}
+.footerHeading{
+    font-size: 3em;
+    font-weight: bold;
+}
+footer a{
+    font-size: 16px;
+
+}
+
+

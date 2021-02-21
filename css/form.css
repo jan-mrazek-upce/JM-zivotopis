@@ -1,0 +1,21 @@
+input, textarea{
+    width: 200px;
+}
+
+textarea {
+    height: 5em;
+}
+
+label {
+    width: 200px;
+    display: block;
+}
+
+.row {
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+
+
